@@ -9,3 +9,12 @@
         width: 100%;
     }
 }
+
+@media (max-width: 360px) {
+    .profile{
+        flex-direction: column;
+    }
+    .img-profile{
+        padding: 0px;
+    }
+}

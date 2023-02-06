@@ -3,31 +3,31 @@ import '../styles/Information.scss';
 
 function Information(){
     return(
-        <div class="information">
+        <div className="information">
             <h1>My Profetional Profile</h1>
-            <div class="item">
-                <div class="name"><span>Email</span></div>
-                <div class="content"><span>example@domain.com</span></div>
+            <div className="item">
+                <div className="name"><span>Email</span></div>
+                <div className="content"><span>example@domain.com</span></div>
             </div>
-            <div class="item">
-                <div class="name"><span>Phone</span></div>
-                <div class="content"><span>+52 765-203-4509</span></div>
+            <div className="item">
+                <div className="name"><span>Phone</span></div>
+                <div className="content"><span>+52 765-203-4509</span></div>
             </div>
-            <div class="item">
-                <div class="name"><span>Address</span></div>
-                <div class="content"><span>State of Guerrero Mexico</span></div>
+            <div className="item">
+                <div className="name"><span>Address</span></div>
+                <div className="content"><span>State of Guerrero Mexico</span></div>
             </div>
-            <div class="item">
-                <div class="name"><span>Linkedin</span></div>
-                <div class="content">
-                    <button class="btn-primary">Visit Site</button>
+            <div className="item">
+                <div className="name"><span>Linkedin</span></div>
+                <div className="content">
+                    <button className="btn-primary">Visit Site</button>
                 </div>
             </div>
-            <div class="item">
-                <div class="name"><span>Options</span></div>
-                <div class="content">
-                    <button class="btn-secondary">Before</button>
-                    <button class="btn-primary">After</button>
+            <div className="item">
+                <div className="name"><span>Options</span></div>
+                <div className="content">
+                    <button className="btn-secondary">Before</button>
+                    <button className="btn-primary">After</button>
                 </div>
             </div>
         </div>

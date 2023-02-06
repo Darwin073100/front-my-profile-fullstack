@@ -5,7 +5,7 @@ import { Information } from '../components/Information';
 
 function NavBar(){
     return(
-        <nav class="nav-bar">
+        <nav className="nav-bar">
             <Profile />
             <Information />
         </nav>
