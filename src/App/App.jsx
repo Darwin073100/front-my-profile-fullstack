@@ -1,8 +1,12 @@
 import React from 'react'
+import { MyProfile } from '../pages/MyProfile';
+import '../styles/App.scss';
 
 function App() {
   return (
-    <div>Hello react</div>
+    <>
+      <MyProfile />
+    </>
   )
 }
 

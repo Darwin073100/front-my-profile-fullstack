@@ -1,0 +1,47 @@
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px;
+    padding-right: 16px;
+    width: 50%;
+}
+.nav-bar .information h1{
+    text-align: center;
+}
+
+.information .item{
+    background-color: var(--color-output);
+    display: flex;
+    border-radius: 6px;
+    margin: 4px;
+    height: 30px;
+    width: 100%;
+}
+.information .item .name{
+    background-color: var(--color-dark);
+    border-radius: 6px 0 0 6px;
+    width: 160px;
+    height: auto;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information .item .content{
+    color: var(--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.information .item .content button{
+    width: 50%;
+}
+
+.information .item:nth-child(6) .content button{
+    width: 40%;
+    margin-left: 4px;
+}
