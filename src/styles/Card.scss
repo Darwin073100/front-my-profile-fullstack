@@ -35,10 +35,16 @@
 
 .card-body{
     padding: 4px;
+    display: flex;
+    flex-direction: column;
 }
 .card-body button{
     margin-top: 4px;
     width: 100%;
+}
+
+.card-body p{
+    padding-bottom: 4px;
 }
 
 .card-footer{

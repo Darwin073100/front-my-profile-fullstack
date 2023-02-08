@@ -10,15 +10,15 @@
     text-align: center;
 }
 
-.information .item{
+.information .output{
     background-color: var(--color-output);
     display: flex;
     border-radius: 6px;
-    margin: 4px;
+    margin: 4px 0 4px 0;
     height: 30px;
     width: 100%;
 }
-.information .item .name{
+.information .output .name{
     background-color: var(--color-dark);
     border-radius: 6px 0 0 6px;
     width: 160px;
@@ -29,7 +29,7 @@
     justify-content: center;
 }
 
-.information .item .content{
+.information .output .content{
     color: var(--color-dark);
     display: flex;
     align-items: center;
@@ -37,11 +37,22 @@
     width: 100%;
 }
 
-.information .item .content button{
-    width: 50%;
+.information .output .content span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.information .item:nth-child(6) .content button{
+.information .output .content button{
+    width: 50%;
+}
+.information .output .content a{
+    width: 40%;
+    margin-right: 4px;
+}
+
+.information .output:nth-child(6) .content button{
     width: 40%;
     margin-left: 4px;
 }
+

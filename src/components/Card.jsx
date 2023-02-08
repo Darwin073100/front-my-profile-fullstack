@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Card.scss';
+import { Link } from './Link';
 
 function Card() {
   return (
@@ -24,7 +25,7 @@ function Card() {
                     reprehenderit dolorum. Doloribus dolor assumenda animi nam reiciendis, vel minus blanditiis 
                     deleniti, quae eum, atque fuga repellat!
                 </p>
-                <button className="btn-secondary">Visit Project</button>
+                <Link value='Visit Project' style='btn-secondary'/>
             </div>
             <div className="card-footer">
                 <h4>Created</h4>
