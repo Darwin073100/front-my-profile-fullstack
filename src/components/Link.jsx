@@ -1,8 +1,8 @@
 import React from "react";
 
-function Link({style, value}){
+function Link({style, value, uri}){
     return(
-        <a href="/" className={`${style} link`} target='_blank'>{ value }</a>
+        <a href={uri} className={`${style} link`} target='_blank'>{ value }</a>
     );
 }
 

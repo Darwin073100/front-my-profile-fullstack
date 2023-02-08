@@ -6,20 +6,20 @@ import { Container } from "../containers/Container";
 import { NavBar } from "../containers/NavBar";
 import "../styles/MyProfile.scss";
 
+import { data } from './data';
+
 function MyProfile() {
+  
   return (
     <>
       <NavBar>
-        <Profile />
-        <Information />
+        <Profile data={data}/>
+        <Information data={data}/>
       </NavBar>
       <Container>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {data.project.map( (item) =>(
+          <Card item={ item } key={ item.id }/>
+        ))}
       </Container>
     </>
   );
