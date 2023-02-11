@@ -1,7 +1,7 @@
 import React from "react";
-function Button({style,value}){
+function Button({style,value,click}){
     return(
-        <button className={style} onClick={()=>alert('Users')}>{value}</button>
+        <button className={style} onClick={click}>{value}</button>
     );
 }
 
