@@ -12,8 +12,8 @@ function Card({item}) {
                         <h3>{item.language.name}</h3><span>({item.language.version})</span>
                     </div>
                     <div>
-                        <img src={item.language.framework.uriImg} alt={item.language.framework.uriImg} />
-                        <h3>{item.language.framework.name}</h3><span>{item.language.framework.version}</span>
+                        <img src={item.framework.uriImg} alt={item.framework.uriImg} />
+                        <h3>{item.framework.name}</h3><span>{item.framework.version}</span>
                     </div>
                 </div>
                 <div className="title">
@@ -22,9 +22,9 @@ function Card({item}) {
             </div>
             <div className="card-body">
                 <p>{item.description}</p>
-                <Link value='Visit Project' style='btn-secondary' uri={item.uriProject}/>
             </div>
             <div className="card-footer">
+            <Link value='Visit Project' style='btn-secondary' uri={item.uriProject}/>
                 <h4>Created</h4>
                 <span>{item.createAt}</span>
             </div>

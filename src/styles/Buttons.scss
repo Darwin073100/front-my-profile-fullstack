@@ -35,3 +35,22 @@
 .btn-secondary:active{
     background-color: var(--color-secondary);
 }
+
+.btn-warning{
+    background-color: var(--color-warning);
+    border:  1.5px solid var(--color-warning);
+    color: var(--color-white);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-warning:hover{
+    background-color: var(--color-warning-hover);
+}
+.btn-warning:active{
+    background-color: var(--color-warning);
+}

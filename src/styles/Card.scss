@@ -1,8 +1,10 @@
 .card{
-    background-color: var(--color-card);
+    // background-color: var(--color-card);
     border-radius: 16px;
-    box-shadow: -2px 0px 21px 4px rgba(32, 137, 163, 0.26);
-    min-width: 200px;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-header{
@@ -28,8 +30,8 @@
     background-color: var(--color-white);
 }
 .card-header .title{
-    background-color: var(--color-primary-hover);
-    color: var(--color-dark);
+    background-color: var(--color-dark);
+    color: var(--color-white);
     padding: 2px;
 }
 
@@ -38,13 +40,15 @@
     display: flex;
     flex-direction: column;
 }
-.card-body button{
-    margin-top: 4px;
-    width: 100%;
-}
 
 .card-body p{
     padding-bottom: 4px;
+}
+
+
+.card-footer a{
+    margin-top: 4px;
+    width: 96%;
 }
 
 .card-footer{
