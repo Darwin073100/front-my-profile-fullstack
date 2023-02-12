@@ -7,15 +7,16 @@ function usePerson() {
   const [index, setIndex] = useState(0);
 
   useEffect(()=>{
-    getAll();
-    setIndex(index);
-  },[index])
+    getAll(index);
+    setData(data);
+    console.log(data[index]);
+  },[item, index])
 
-  const getAll = async ()=>{
+  const getAll = async (i)=>{
     const res = await axios.get('http://localhost:3000/api/v1/person');
     const data = res.data
-    setItem(data[index]);
     setData(data);
+    setItem(data[i]);
   };
 
   const after = () =>{

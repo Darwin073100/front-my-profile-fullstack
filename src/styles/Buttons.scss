@@ -54,3 +54,22 @@
 .btn-warning:active{
     background-color: var(--color-warning);
 }
+
+.btn-error{
+    background-color: var(--color-error);
+    border:  1.5px solid var(--color-error);
+    color: var(--color-white);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-error:hover{
+    background-color: var(--color-error-hover);
+}
+.btn-error:active{
+    background-color: var(--color-error);
+}

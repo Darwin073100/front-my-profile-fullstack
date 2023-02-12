@@ -9,13 +9,12 @@ import "../styles/MyProfile.scss";
 import { usePerson } from "../hooks/usePerson";
 
 function MyProfile() {
-  const {item,index} = usePerson();
-  console.log(item.project?.[1]);
+  const {item} = usePerson();
 
   return (
     <>
       <NavBar>
-        <Profile data={item} index={index}/>
+        <Profile data={item}/>
         <Information item={item}/>
       </NavBar>
       <Container>
