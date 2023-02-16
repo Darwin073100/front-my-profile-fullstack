@@ -1,18 +1,19 @@
 import React from "react";
+import { usePerson } from "../hooks/usePerson";
 import '../styles/Profile.scss';
 
-function Profile({data}) {
+function Profile({item}) {
   return (
     <div className="profile">
       <div className="img-profile">
         <img
-          src={data.uriImg}
-          alt={data.name}
+          src={item.uriImg}
+          alt={item.name}
         />
       </div>
       <div className="description">
-        <p>{data.description}</p>
-        <h1>{`${data.name} ${data.lastName}`}</h1>
+        <p>{item.description}</p>
+        <h1>{`${item.name} ${item.lastName}`}</h1>
       </div>
     </div>
   );
